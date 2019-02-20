@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # bitcore-build-DYN
 
 A helper to add tasks to gulp.
@@ -42,5 +41,3 @@ Code released under [the MIT license](https://github.com/bitpay/bitcore/blob/mas
 
 Copyright 2015 BitPay, Inc. Bitcore is a trademark maintained by BitPay, Inc.
 =======
-# bitcore-build-DYN
->>>>>>> 6096ebf2aa594ef9adca2d6af01c6079ae2185f6
