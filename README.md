@@ -1,4 +1,4 @@
-# bitcore-build-DYN
+# bitcore-build-dyn
 
 A helper to add tasks to gulp.
 
@@ -7,8 +7,8 @@ A helper to add tasks to gulp.
 Install with:
 
 ```sh
-git clone https://github.com/DYNinsight/bitcore-build-DYN.git
-cd bitcore-build-DYN
+git clone https://github.com/syyyn/bitcore-build-dyn
+cd bitcore-build-dyn
 npm install
 ```
 
@@ -16,7 +16,7 @@ and use and require in your gulp file:
 
 ```javascript
 var gulp = require('gulp');
-var bitcoreTasks = require('bitcore-build-DYN');
+var bitcoreTasks = require('bitcore-build-dyn');
 
 bitcoreTasks('submodule');
 gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
@@ -27,7 +27,7 @@ gulp.task('default', ['lint', 'test', 'browser', 'coverage']);
 * There's no default task to allow for each submodule to set up their own configuration
 * If the module is node-only, avoid adding the browser tasks with:
 ```javascript
-var bitcoreTasks = require('bitcore-build-DYN');
+var bitcoreTasks = require('bitcore-build-dyn');
 bitcoreTasks('submodule', {skipBrowsers: true});
 ```
 

@@ -1,14 +1,14 @@
 {
-  "name": "bitcore-build-DYN",
+  "name": "bitcore-build-dyn",
   "version": "0.5.4",
-  "description": "A helper for common tasks to build bitcore-DYN modules'",
+  "description": "A helper for common tasks to build bitcore-dyn modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/duality-solutions/bitcore-build-DYN"
+    "url": "git://github.com/syyyn/bitcore-build-dyn"
   },
   "keywords": [
     "bitcore"
@@ -34,16 +34,16 @@
       "name": "Larry Ludlow",
       "email": "larry@myhush.org"
     },
-        {
+    {
       "name": "TheTrunk",
       "email": "tessjonesie@gmail.com"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/duality-solutions/bitcore-build-DYN/issues"
+    "url": "https://github.com/syyyn/bitcore-build-dynissues"
   },
-  "homepage": "https://github.com/duality-solutions/bitcore-build-DYN",
+  "homepage": "https://github.com/syyyn/bitcore-build-dyn",
   "dependencies": {
     "brfs": "^1.2.0",
     "browserify": "~13.1.0",
